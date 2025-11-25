@@ -24,7 +24,7 @@ To use and modify this project, you need the following:
 \*\* [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): Go to the Extensions view by clicking on the Extensions icon in the Sidebar or pressing Ctrl+Shift+X. Search for "Live Server" and install the extension by Ritwick Dey (OR search with id = ritwickdey.LiveServer). 
 
 ## Demo
-You can visit the web-based dialogue system [here](https://iis23025.github.io/egovUOM-iis23025-iis23109-ex2part1/).
+You can visit the web-based dialogue system [here](https://iis23025.github.io/egovUOM-iis23025-iis23109-ex3/).
 
 ## Special thanks
 Special thanks to the students of University of Macedonia:
