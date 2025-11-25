@@ -1,0 +1,231 @@
+{
+  "name": "Registration in the Register of Occupational Physicians",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "question",
+      "text": "Have you completed medical studies and are you practising as a physician?",
+      "possible_answers": [
+        {
+          "id": "a1",
+          "text": "Yes, I have a medical degree and I am practising as a physician.",
+          "next_step": "q2"
+        },
+        {
+          "id": "a2",
+          "text": "No, I do not have a medical degree.",
+          "next_step": "end_reject"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "question",
+      "text": "Which of the following descriptions best reflects your professional situation in relation to Occupational Medicine?",
+      "possible_answers": [
+        {
+          "id": "a3",
+          "text": "I hold and practise the specialty of Occupational Medicine.",
+          "next_step": "q3"
+        },
+        {
+          "id": "a4",
+          "text": "I do not have the specialty, but I am registered in the Special List or I meet the requirements of Article 16 of Law 3850/2010.",
+          "next_step": "q3"
+        },
+        {
+          "id": "a5",
+          "text": "I do not hold the specialty of Occupational Medicine, nor am I in the Special List or within the requirements of Article 16 of Law 3850/2010.",
+          "next_step": "end_reject"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "question",
+      "text": "Are you registered with a Medical Association?",
+      "possible_answers": [
+        {
+          "id": "a6",
+          "text": "Yes, I am registered with a Medical Association.",
+          "next_step": "q4"
+        },
+        {
+          "id": "a7",
+          "text": "No, I am not registered with a Medical Association.",
+          "next_step": "end_reject"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "question",
+      "text": "Regarding the electronic procedure, which of the following options best describes you?",
+      "possible_answers": [
+        {
+          "id": "a8",
+          "text": "I have Taxisnet credentials and I can log in to the digital portal hli.gov.gr.",
+          "next_step": "q5"
+        },
+        {
+          "id": "a9",
+          "text": "I have Taxisnet credentials, but I have not yet completed creating access to the services of hli.gov.gr.",
+          "next_step": "q5"
+        },
+        {
+          "id": "a10",
+          "text": "I do not have Taxisnet credentials.",
+          "next_step": "end_reject"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "question",
+      "text": "In the application for registration in the Register of Occupational Physicians, have you already included the information that demonstrates the medical degree you have obtained?",
+      "possible_answers": [
+        {
+          "id": "a11",
+          "text": "Yes, the information about my medical degree has already been included in the application.",
+          "next_step": "q6",
+          "related_evidence": [
+            {
+              "evidence_id": "ev1"
+            }
+          ]
+        },
+        {
+          "id": "a12",
+          "text": "Not yet, I intend to add the relevant information before the final submission.",
+          "next_step": "q6",
+          "related_evidence": [
+            {
+              "evidence_id": "ev1"
+            }
+          ]
+        },
+        {
+          "id": "a13",
+          "text": "I do not wish to provide information about my medical degree at this time.",
+          "next_step": "q6",
+          "related_evidence": [
+            {
+              "evidence_id": "ev1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "question",
+      "text": "Is your registration with a Medical Association, as required for registration in the Register of Occupational Physicians, reflected in the application with the corresponding information?",
+      "possible_answers": [
+        {
+          "id": "a14",
+          "text": "Yes, my registration with a Medical Association is clearly reflected in the application.",
+          "next_step": "q7",
+          "related_evidence": [
+            {
+              "evidence_id": "ev2"
+            }
+          ]
+        },
+        {
+          "id": "a15",
+          "text": "Not yet, I will make sure to complete the relevant information about the Medical Association.",
+          "next_step": "q7",
+          "related_evidence": [
+            {
+              "evidence_id": "ev2"
+            }
+          ]
+        },
+        {
+          "id": "a16",
+          "text": "I do not wish to provide details about the Medical Association in the application at this time.",
+          "next_step": "q7",
+          "related_evidence": [
+            {
+              "evidence_id": "ev2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "question",
+      "text": "If you hold the specialty of Occupational Medicine, is the relevant information about obtaining it shown in your application for registration in the Register of Occupational Physicians?",
+      "possible_answers": [
+        {
+          "id": "a17",
+          "text": "Yes, the application states that I hold the specialty of Occupational Medicine.",
+          "next_step": "q8",
+          "related_evidence": [
+            {
+              "evidence_id": "ev3"
+            }
+          ]
+        },
+        {
+          "id": "a18",
+          "text": "Not yet, I intend to add in the application that I hold the specialty of Occupational Medicine.",
+          "next_step": "q8",
+          "related_evidence": [
+            {
+              "evidence_id": "ev3"
+            }
+          ]
+        },
+        {
+          "id": "a19",
+          "text": "I do not hold the specialty of Occupational Medicine.",
+          "next_step": "q8"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "question",
+      "text": "Since you do not hold the specialty of Occupational Medicine, does the application reflect the details showing that you are registered in the special List of Physicians or that you meet the legal requirements (e.g. previous service as an Occupational Physician)?",
+      "possible_answers": [
+        {
+          "id": "a20",
+          "text": "Yes, the application includes the details for the special List and/or my previous service as an Occupational Physician.",
+          "next_step": "end_success",
+          "related_evidence": [
+            {
+              "evidence_id": "ev4"
+            }
+          ]
+        },
+        {
+          "id": "a21",
+          "text": "Not yet, I will add the details for the special List and/or my previous service before the final submission.",
+          "next_step": "end_success",
+          "related_evidence": [
+            {
+              "evidence_id": "ev4"
+            }
+          ]
+        },
+        {
+          "id": "a22",
+          "text": "I am not registered in the special List and I do not have relevant previous service as an Occupational Physician.",
+          "next_step": "end_success"
+        }
+      ]
+    },
+    {
+      "id": "end_reject",
+      "type": "end",
+      "text": "Based on your answers to the criteria (medical degree, relation to Occupational Medicine, registration with a Medical Association and the ability to be identified via Taxisnet), the basic conditions for registration in the Register of Occupational Physicians are not met."
+    },
+    {
+      "id": "end_success",
+      "type": "end",
+      "text": "Based on your answers to the criteria, you can proceed with the application for registration in the Register of Occupational Physicians. If some of the information related to the required elements has not yet been reflected in the application, please make sure to add it before the final submission."
+    }
+  ]
+}

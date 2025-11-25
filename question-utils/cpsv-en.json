@@ -1,0 +1,61 @@
+{
+  "PublicService": {
+    "name": "Registration in the Register of Occupational Physicians",
+    "evidence": [
+      {
+        "id": 1,
+        "evs": [
+          {
+            "id": "ev1",
+            "type": "Evidence",
+            "name": "Medical Degree",
+            "description": "In the application for registration in the Register of Occupational Physicians, the applicant physician must attach the medical degree obtained."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "evs": [
+          {
+            "id": "ev2",
+            "type": "Evidence",
+            "name": "Medical Association Certificate",
+            "description": "The applicant physician must be registered with a Medical Association and this must be certified by the corresponding certificate."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "evs": [
+          {
+            "id": "ev3",
+            "type": "Evidence",
+            "name": "Certificate of acquisition of the specialty of Occupational Medicine",
+            "description": "The applicant physician must hold the specialty of Occupational Medicine and provide the corresponding certificate."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "evs": [
+          {
+            "id": "ev4",
+            "type": "Evidence",
+            "name": "Registration in the Special List of Physicians provided for in Ministerial Decision 43323/1983/2018 (Government Gazette B 3509/21-8-2018)",
+            "description": "If the applicant physician does not hold the specialty of Occupational Medicine, he/she must be registered in the special List of Physicians who meet the requirements of the Law (previous service as an Occupational Physician, etc.) and are allowed to perform the duties of an Occupational Physician."
+          }
+        ]
+      }
+    ],
+    "criterion_requirments": [
+      {
+        "id": "1",
+        "name": "The applicant physician must:\na) hold a medical degree,\nb) hold and practice the specialty of Occupational Medicine or, alternatively,\nc) be registered in the Special List provided for in Ministerial Decision 43323/1983/2018 (Government Gazette B 3509/21-8-2018) or meet the requirements of Article 16 of Law 3850/2010,\nd) be registered with a Medical Association and provide the corresponding certificate."
+      },
+      {
+        "id": "2",
+        "name": "For the applicant physician to be registered in the Electronic Registration Database, he/she must have Taxisnet credentials for identification and then access credentials to enter the electronic services provided through the digital portal hli.gov.gr"
+      }
+    ]
+  }
+}

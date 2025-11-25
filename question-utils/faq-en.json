@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "question": "Is there any cost to acquire a registration number in the Register of Occupational Doctors?",
+        "answer": "No, the acquiring of registration number in the Register of Occupational Doctors is completely free of cost."
+    },
+    {
+        "id": 1,
+        "question": "What are the requirements for applying?",
+        "answer": "The applicant physician should: (a) hold a Degree in medicine, (b) possess and exercise the Speciality of Occupational Medicine or alternatively, (c) be registered in the Special List provided for in the Ministerial Decision 43323/1983/2018 (FEK B 3509/21-8-2018) or meet the conditions of Article 16 of Law 3850/2010, (d) be registered in a Medical Association and have a corresponding certificate. The Applicant Physician, to be registered in the electronic Registration Database, should have a Taxisnet passcode for identification, as well as a passcode for entering the electronic services provided via the digital portal hli.gov.gr. "
+    },
+    {
+        "id": 2,
+        "question": "What service points are available to applicants? Are they only in person or are there also digital ones?",
+        "answer": "The applications can be submitted in person at the Occupational Safety and Health Inspection Departments, or entirely digitally at the Single Digital Portal of Public Administration (hli.gov.gr). It should be noted that in the case of in-person service, the above requirements regarding possession of a Taxisnet passcode for identification and, subsequently, possession of passcode for entering the electronic services of the digital portal hli.gov.gr are also required, as the application is submitted electronically only and the Occupational Safety and Health Inspection Departments will undertake its electronic submission."
+    },
+    {
+        "id": 3,
+        "question": "What is the estimated time of acquiring the number?",
+        "answer": "In the case of a digital application, the number is assigned within 6 working days."
+    },
+    {
+        "id": 4,
+        "question": "How many supporting documents are required from the applicant?",
+        "answer": "Three to four supporting documents are required."
+    }
+]
